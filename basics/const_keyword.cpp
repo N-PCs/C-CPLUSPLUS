@@ -15,7 +15,7 @@ int main(){
     
     double r=10;
     double c=2*PI*r;  //circumference
-    std::cout<<"The circumference of circle wirh radius "<<r<<" is "<<c<<" square units."<<'\n';
+    std::cout<<"The circumference of circle wirh radius "<<r<<" is "<<c<<"units."<<'\n';
 
     const int LIGHT_SPEED=299792458;
     const int WiDTH=1920;
