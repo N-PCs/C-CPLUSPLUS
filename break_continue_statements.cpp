@@ -2,14 +2,14 @@
 using namespace std;
 
 int main(){
-    for(int i=1;i<=20;i++){
-        if(i>20){
+    for(int j=1;i<=20;i++){
+        if(j>20){
             break;
         }
-        if(i==13){  //will skip 13 and continue
+        if(j==13){  //will skip 13 and continue
             continue;
         }
-        cout<<i<<'\n';
+        cout<<j<<'\n';
     }
     return 0;
 }
