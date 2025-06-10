@@ -16,8 +16,8 @@ void person::getdata(void){
 }
 
 void person::putdata(void){
-    cout<<"name is "<<name<<'\n';
-    cout<<"my age is "<<age;
+    cout<<"My name is "<<name<<'\n';
+    cout<<"My age is "<<age;
 }
 
 int main(){
