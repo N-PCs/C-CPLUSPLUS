@@ -12,7 +12,7 @@ int main(){
     //take 10 inputs from user
     cout<<"Enter 10 integers"<<endl;
     for(int i=0;i<Size;i++){
-        cout<<"Enter integer "<<i+1<<":"<<endl;
+        cout<<"Enter int "<<i+1<<":"<<endl;
         cin>>number[i];
     }
 
