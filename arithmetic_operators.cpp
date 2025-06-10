@@ -39,8 +39,8 @@ int main(){
             3.Addition + & Subtraction 
 */
 
-    int sa=(6*2)-5+4*3/2;
-    cout<< sa <<'\n';
+    int ans=(6*2)-5+4*3/2;
+    cout<< ans <<'\n';
 
     return 0;
 }
