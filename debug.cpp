@@ -10,10 +10,13 @@ float add(float a, float b) {
 }
 
 int main() {
+    
     int intResult = add(5, 10); 
     float floatResult = add(5.5f, 2.3f); 
 
     cout << "Sum of integers: " << intResult <<'\n';
     cout << "Sum of floats: " << floatResult;
     return 0;
+    
     }
+
