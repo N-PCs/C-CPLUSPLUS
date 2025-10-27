@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 // Function prototypes
 void mergeSort(int arr[], int l, int r);
 void merge(int arr[], int l, int m, int r);
 void printArray(int A[], int size);
+
 // Main function
 int main() {
     int arr[] = {9,8,7,6,9,4,5,2,3,1,10};
@@ -19,6 +21,7 @@ int main() {
     
     return 0;
 }
+
 void mergeSort(int arr[], int l, int r) {
     if (l < r) {
         int m = l + (r - l) / 2;  // Fixed: was (r-1)/2
@@ -38,6 +41,7 @@ void printArray(int A[], int size) {
     }
     printf("\n");
 }
+
 // Function to merge 
 void merge(int arr[], int l, int m, int r) {
     int i, j, k;
@@ -79,4 +83,5 @@ void merge(int arr[], int l, int m, int r) {
         j++;
         k++;
     }
+
 }
