@@ -6,7 +6,6 @@ private:
     float x, y;
 public:
     Vector(float x = 0, float y = 0) : x(x), y(y) {}
-    
     // Overloading the + operator
     Vector operator+(const Vector& other) {
         return Vector(x + other.x, y + other.y);
@@ -39,4 +38,5 @@ int main() {
     }
     
     return 0;
+
 }
