@@ -17,6 +17,7 @@ public:
     }
 };
 
+
 // Derived class 1 (hierarchical)
 class Student : public Person {
 public:
@@ -45,4 +46,5 @@ int main() {
     ws.displayWorkingStudent();
     
     return 0;
+
 }
