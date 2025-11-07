@@ -3,9 +3,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
 int main(){
-
     double height;
     double base;
     double hypo;
@@ -17,7 +15,6 @@ int main(){
     cin >>base;         // taking base legth input
 
     //reassigning values to height, base using math functions
-
     height=pow(height,2);  //now height=height**2
     base=pow(base,2);      //now base = bse**2 
 
@@ -32,4 +29,5 @@ int main(){
 }
 
 //the same program can be written by declaring hypo in other way i.e
+
 // hypo=sqrt(pow(height,2)+pow(base,2))
